@@ -3,6 +3,8 @@ import time
 import requests
 from requests.auth import HTTPBasicAuth
 
+from pusher.event import Event
+
 
 class MetricsPusher:
     def __init__(self, enabled: bool, url: str, user: str, password: str, component: str, dump: bool):
