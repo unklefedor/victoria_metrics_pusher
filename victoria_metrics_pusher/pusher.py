@@ -2,7 +2,7 @@ import logging
 import time
 import requests
 from requests.auth import HTTPBasicAuth
-from pusher.event import Event
+from victoria_metrics_pusher.event import Event
 
 
 class VictoriaMetricsPusher:
